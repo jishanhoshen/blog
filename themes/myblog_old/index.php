@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="blog ">
+	<meta name="keywords" content="blog">
+	<meta name="author" content="Jishan">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>blog</title>
+	<link rel="icon" href="demo_icon.gif" type="image/gif" sizes="16x16">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body class="light">
+<div class="main_container">
+	<div class="post">
+		<div class="post_header">
+			<div class="profile_box"></div>
+			<div class="profile_title_box">
+				<div class="username">
+					<h3>jishan Hoshen jibon</h3>
+				</div>
+				<div class="post_time">
+					<p>12 hours</p>
+				</div>
+			</div>
+			<div class="menu_box"></div>
+		</div>
+		<div class="post_body">
+			<div class="post_container">
+				<div class="post_text_area">
+					<h2>Post title</h2>
+					<p>Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui.Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula.Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui.</p>
+					<br/>
+					<p>Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.</p>
+				</div>
+				<div class="post_image_area">
+					<style type="text/css">
+						#postId1img1{
+							background-image: url(1.jpg);
+						}
+						#postId1img2{
+							background-image: url(2.jpg);
+						}
+						#postId1img3{
+							background-image: url(3.jpg);
+						}
+						#postId1img4{
+							background-image: url(4.jpg);
+						}
+					</style>
+					<div class="images q-img">
+						<div class="img" id="postId1img1"></div>
+						<div class="img" id="postId1img2"></div>
+						<div class="img" id="postId1img3"></div>
+						<div class="img" id="postId1img4"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="post_footer">
+			<div class="reacts_count">
+				<div class="reacts">
+					<div class="react r-unlike"></div>
+					<div class="react r-wow"></div>
+					<div class="react r-angry"></div>
+					<div class="react r-haha"></div>
+					<div class="react r-love"></div>
+					<div class="react r-like"></div>
+				</div>
+				<div class="r-count"><p>100</p></div>
+			</div>
+			<div class="comment_count">
+				<p>100 comments</p>
+			</div>
+			<div class="share_count">
+				<p>100 share</p>
+			</div>
+		</div>
+	</div>
+	<div class="post">
+		<div class="post_header">
+			<div class="profile_box"></div>
+			<div class="profile_title_box">
+				<div class="username">
+					<h3>jishan Hoshen jibon</h3>
+				</div>
+				<div class="post_time">
+					<p>12 hours</p>
+				</div>
+			</div>
+			<div class="menu_box"></div>
+		</div>
+		<div class="post_body">
+			<div class="post_container">
+				<div class="post_text_area">
+					<h2>Post title 2</h2>
+					<p>Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui.Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula.Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui.</p>
+				</div>
+				<div class="post_image_area">
+					<style type="text/css">
+						#postId2img1{
+							background-image: url(1.jpg);
+						}
+						#postId2img2{
+							background-image: url(2.jpg);
+						}
+						#postId2img3{
+							background-image: url(3.jpg);
+						}
+					</style>
+					<div class="images t-img">
+						<div class="img" id="postId2img1"></div>
+						<div class="img" id="postId2img2"></div>
+						<div class="img" id="postId2img3"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="post_footer">
+			<div class="reacts_count">
+				<div class="reacts">
+					<div class="react r-unlike"></div>
+					<div class="react r-wow"></div>
+					<div class="react r-angry"></div>
+					<div class="react r-haha"></div>
+					<div class="react r-love"></div>
+					<div class="react r-like"></div>
+				</div>
+				<div class="r-count"><p>100</p></div>
+			</div>
+			<div class="comment_count">
+				<p>100 comments</p>
+			</div>
+			<div class="share_count">
+				<p>100 share</p>
+			</div>
+		</div>
+	</div>
+	<div class="post">
+		<div class="post_header">
+			<div class="profile_box"></div>
+			<div class="profile_title_box">
+				<div class="username">
+					<h3>jishan Hoshen jibon</h3>
+				</div>
+				<div class="post_time">
+					<p>12 hours</p>
+				</div>
+			</div>
+			<div class="menu_box"></div>
+		</div>
+		<div class="post_body">
+			<div class="post_container">
+				<div class="post_text_area">
+					<h2>Post title 3</h2>
+					<p>Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui.Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula.Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui.</p>
+					<br/>
+					<p>Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.</p>
+				</div>
+				<div class="post_image_area">
+					<style type="text/css">
+						#postId3img1{
+							background-image: url(1.jpg);
+						}
+						#postId3img2{
+							background-image: url(2.jpg);
+						}
+					</style>
+					<div class="images d-img">
+						<div class="img" id="postId3img1"></div>
+						<div class="img" id="postId3img2"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="post_footer">
+			<div class="reacts_count">
+				<div class="reacts">
+					<div class="react r-unlike"></div>
+					<div class="react r-wow"></div>
+					<div class="react r-angry"></div>
+					<div class="react r-haha"></div>
+					<div class="react r-love"></div>
+					<div class="react r-like"></div>
+				</div>
+				<div class="r-count"><p>100</p></div>
+			</div>
+			<div class="comment_count">
+				<p>100 comments</p>
+			</div>
+			<div class="share_count">
+				<p>100 share</p>
+			</div>
+		</div>
+	</div>
+	<div class="post">
+		<div class="post_header">
+			<div class="profile_box"></div>
+			<div class="profile_title_box">
+				<div class="username">
+					<h3>jishan Hoshen jibon</h3>
+				</div>
+				<div class="post_time">
+					<p>12 hours</p>
+				</div>
+			</div>
+			<div class="menu_box"></div>
+		</div>
+		<div class="post_body">
+			<div class="post_container">
+				<div class="post_text_area">
+					<h2>Post title 4</h2>
+					<p>Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui.Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula.Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui.</p>
+					<br/>
+					<p>Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.</p>
+				</div>
+				<div class="post_image_area">
+					<style type="text/css">
+						#postId4img3{
+							background-image: url(3.jpg);
+						}
+					</style>
+					<div class="images s-img">
+						<div class="img" id="postId4img3"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="post_footer">
+			<div class="reacts_count">
+				<div class="reacts">
+					<div class="react r-unlike"></div>
+					<div class="react r-wow"></div>
+					<div class="react r-angry"></div>
+					<div class="react r-haha"></div>
+					<div class="react r-love"></div>
+					<div class="react r-like"></div>
+				</div>
+				<div class="r-count"><p>100</p></div>
+			</div>
+			<div class="comment_count">
+				<p>100 comments</p>
+			</div>
+			<div class="share_count">
+				<p>100 share</p>
+			</div>
+		</div>
+	</div>
+</div>
+<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
