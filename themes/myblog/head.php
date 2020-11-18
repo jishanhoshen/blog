@@ -43,8 +43,8 @@ class head
 			<link rel="stylesheet" type="text/css" href="themes/myblog/css/style.css">
 			<link rel="stylesheet" type="text/css" href="themes/myblog/css/fontawesome.all.min.css">
 			<script type="text/javascript" src="themes/myblog/js/jquery-3.5.1.min.js"></script>
-			<script type="text/javascript" src="js/fontawesome.all.min.js"></script>
-			<script type="text/javascript" src="js/script.js"></script>
+			<script type="text/javascript" src="themes/myblog/js/fontawesome.all.min.js"></script>
+			<script type="text/javascript" src="themes/myblog/js/script.js"></script>
 		</head>
 		<body class="<?php echo $themeMood;?>">
 	<?php

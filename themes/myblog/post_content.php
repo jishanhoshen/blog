@@ -1,52 +1,17 @@
 <?php
 /**
- * Main_Container
+ * post body
  */
-class Main_Container
+class PostContent
 {
-	public $main_container;
-	function __construct($ds,$themeMood,$siteUrl)
+	public $postcontent
+	function __construct(argument)
 	{
-		$this->main_container = $this->Main_Container($ds,$themeMood,$siteUrl);
+		$this->postcontent = $this->PostContent();
 	}
-	public function Main_Container($ds,$themeMood,$siteUrl)
+	public function PostContent()
 	{
-	?>
-<div class="main_container">
-	<?php
-	//select post
-	$query = "SELECT * FROM `post`";
-	$paramType = "";
-	$paramArray = array();
-	$postResult = $ds->select($query, $paramType, $paramArray);
-	//select post
-	if (!empty($postResult)) {
-		foreach ($postResult as $key => $post) {
-			$username = $post['username'];
-			$postId = $post['postId'];
-			//select user
-			$query = "SELECT * FROM user where username = ?";
-			$paramType = "s";
-			$paramArray = array($username);
-			$userResult = $ds->select($query, $paramType, $paramArray);
-			//select user
-			if (!empty($userResult)) {
-				foreach ($userResult as $key => $user) {
-					$user;
-				}
-			}
-			//select post
-			$query = "SELECT * FROM postReview where postId = ? ";
-			$paramType = "i";
-			$paramArray = array($postId);
-			$postReviewResult = $ds->select($query, $paramType, $paramArray);
-			//select post
-			if (!empty($postReviewResult)) {
-				foreach ($postReviewResult as $key => $postReview) {
-					$postReview;
-				}
-			}
-	?>
+?>
 	<div class="post <?php echo $themeMood?>">
 		<div class="post_header <?php echo $themeMood?>">
 			<div class="profile_box" style="background-image: url(<?php echo $siteUrl?>uploads/users/<?php echo $user['profile'];?>);"></div>
@@ -237,12 +202,7 @@ class Main_Container
 		</div>
 		<div class="post_footer input_footer <?php echo $themeMood?>"></div>
 	</div>
-	<?php 
-		$lastId = $post['postId'];
-		} } 
-	?>
-</div>
-	<?php
+<?php
 	}
 }
 ?>
