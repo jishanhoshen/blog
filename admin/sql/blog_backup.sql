@@ -6,7 +6,7 @@ CREATE TABLE `backup_db` (
   `date` datetime NOT NULL,
   `status` int(11) NOT NULL,
   PRIMARY KEY (`backup_id`)
-) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=utf8mb4;
+) ENGINE=InnoDB AUTO_INCREMENT=8 DEFAULT CHARSET=utf8mb4;
 
 INSERT INTO backup_db VALUES("1","blog_backup2020-11-18_17.38.38.sql","2020-11-18 17:38:38","1");
 INSERT INTO backup_db VALUES("2","blog_backup2020-11-18_17.40.57.sql","2020-11-18 17:40:57","1");
@@ -14,6 +14,7 @@ INSERT INTO backup_db VALUES("3","blog_backup2020-11-18_18.35.02.sql","2020-11-1
 INSERT INTO backup_db VALUES("4","blog_backup2020-11-18_18.37.46.sql","2020-11-18 18:37:46","1");
 INSERT INTO backup_db VALUES("5","blog_backup2020-11-18_18.39.02.sql","2020-11-18 18:39:02","1");
 INSERT INTO backup_db VALUES("6","blog_backup2020-11-18_18.42.16.sql","2020-11-18 18:42:16","1");
+INSERT INTO backup_db VALUES("7","blog_backup2020-11-19_15.26.20.sql","2020-11-19 15:26:20","1");
 
 
 
@@ -52,6 +53,10 @@ CREATE TABLE `post` (
   PRIMARY KEY (`postId`)
 ) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8mb4;
 
+INSERT INTO post VALUES("1","jackson","12 hour","this is the title","Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui.Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula.Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui.","Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui.Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula.","Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui.Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Cura","1.jpg","2.jpg","3.jpg","4.jpg");
+INSERT INTO post VALUES("2","oliver","12 hour","this is the title","","Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui.Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula.","Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui.Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Cura","1.jpg","2.jpg","3.jpg","");
+INSERT INTO post VALUES("3","ogden","12 hour","this is the title","Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui.Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula.Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui.","Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui.Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula.","Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui.Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Cura","1.jpg","2.jpg","","");
+INSERT INTO post VALUES("4","murray","12 hour","this is the title","Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui.Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Done ullamcorper sit amet ligula.Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui.","","Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui.Vestibulum ante ura","1.jpg","","","");
 
 
 
@@ -113,5 +118,5 @@ INSERT INTO user VALUES("5","hart","kylie	hart","profile5.jpg");
 
 
 
--- blog_backup2020-11-18_18.42.16.sql 
+-- blog_backup2020-11-19_15.26.20.sql 
 
